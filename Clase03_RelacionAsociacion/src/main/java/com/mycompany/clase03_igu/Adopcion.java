@@ -185,7 +185,7 @@ public class Adopcion extends javax.swing.JFrame {
         p.setMascota(m);
         
         //List<Persona> persona= new ArrayList<>();
-        persona.add(p);
+        //persona.add(p);
         
         String datos = p.getNombre() + " Tiene Un " + p.getMascota().getTipo() + " Que Se llama " + p.getMascota().getNombre() + "\n";
         txtDatos.append(datos);

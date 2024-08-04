@@ -9,6 +9,7 @@ package com.mycompany.clase03_relacionasociacion1;
  * @author DREP
  */
 public class Inmueble {
+
     private String calle;
     private int numero;
 
@@ -30,5 +31,5 @@ public class Inmueble {
     public void setNumero(int numero) {
         this.numero = numero;
     }
-    
+
 }

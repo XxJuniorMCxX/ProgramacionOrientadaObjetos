@@ -9,6 +9,7 @@ package com.mycompany.clase03_relacionasociacion1;
  * @author DREP
  */
 public class Inquilino {
+
     private String nombre;
 
     public Inquilino() {
@@ -21,5 +22,5 @@ public class Inquilino {
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    
+
 }

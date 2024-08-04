@@ -9,8 +9,9 @@ package com.mycompany.clase03_relacionasociacion1;
  * @author DREP
  */
 public class Renta {
+
     private float costo;
-    private byte duracion;
+    private int duracion;
     private Inquilino inquilino;
     private Inmueble inmueble;
 
@@ -25,11 +26,11 @@ public class Renta {
         this.costo = costo;
     }
 
-    public byte getDuracion() {
+    public int getDuracion() {
         return duracion;
     }
 
-    public void setDuracion(byte duracion) {
+    public void setDuracion(int duracion) {
         this.duracion = duracion;
     }
 
@@ -48,9 +49,10 @@ public class Renta {
     public void setInmueble(Inmueble inmueble) {
         this.inmueble = inmueble;
     }
-    public void muestra(){
-        System.out.println("El Inquilino se Llama " + inquilino.getNombre() + " "
-                + " y Tiene Un Inmueble en la " + inmueble.getCalle() + " numero " + 
-                inmueble.getNumero() + " paga S/." + costo + " Durante " + duracion + " dias");
+
+    public String muestra() {
+        return "El Inquilino se Llama " + inquilino.getNombre() + " "
+                + " y Tiene Un Inmueble en la Calle " + inmueble.getCalle() + " numero "
+                + inmueble.getNumero() + " paga S/." + costo + " Durante " + duracion + " dias";
     }
 }
