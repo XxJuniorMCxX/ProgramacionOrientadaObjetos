@@ -228,7 +228,6 @@ public class FrmAlumno extends javax.swing.JFrame {
         Alumno a = new Alumno(curso, nota1, nota2, nombre, aPaterno, aMaterno, edad);
         txtArea.append(a.muestra()+ "\n");
         
-        
     }//GEN-LAST:event_cmdAgregarActionPerformed
 
     /**
